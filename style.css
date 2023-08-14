@@ -1,0 +1,39 @@
+
+.box{
+    width: 40%;
+    height:11% ;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+.box1{
+    width: 15%;
+    height: 40%;
+    margin-top: -1%;
+    margin-left: 36.5%;
+    background-attachment: fixed;
+    background-color: hotpink;
+    position:fixed;
+    background-image: url(whatsApp.jpg);
+}
+.box2{
+    width: 19%;
+    height: 30.7%;
+    margin-left: 53%;
+    position: absolute;
+    margin-top: -16.5%;
+    background-color: aqua;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+body{
+    margin-top: 7%;
+    background-image: url(backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container.box1{
+    width: 40%;
+}
+h2{
+    margin-top: -0.7%;
+}

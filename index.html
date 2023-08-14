@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini WhatApp</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="box"
+        style="background-color: #111110; width: 20.3%; height: 100%"
+      >
+        <h2 style="background-color: rgb(163, 233, 23)">PERSON A</h2>
+        <img src="person.jpg" width="90%" />
+        <input id="i1" />
+        <button onclick="sendsms()">send</button>
+      </div>
+      <div
+        class="box1"
+        id="mydiv"
+        style="
+          padding-left: 10px;
+          padding-top: 1px;
+          width: 15%;
+          height: 32%;
+          backgroundcolor: pink;
+        "
+      >
+        <h3>CHAT</h3>
+      </div>
+    </div>
+    <div class="fixed">
+      <div class="box2" style="background-color: #13120e">
+        <h2 style="background-color: rgb(11, 233, 40)">PERSON B</h2>
+        <img src="personB.jpg" width="90%" />
+        <input id="i2" />
+        <button onclick="sendsms()">send</button>
+      </div>
+    </div>
+  </body>
+</html>
